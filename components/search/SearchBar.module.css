@@ -1,0 +1,52 @@
+.page {
+    --black: #1a1a1a;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 200px;
+    width: 860px;
+    height: auto;
+    min-height: 130px;
+    border-color: rgb(202, 202, 202);
+    border-radius: 15px;
+    border-width: 0.2cap;
+    border-style: solid;
+}
+
+
+.textarea {
+    resize: none;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 0.1cap;
+    line-height: 1.5;
+    line-break: auto;
+    white-space: 'pre-wrap';
+    overflow-wrap: break-word;
+    border: none;
+    width: auto;
+    height: auto;
+    min-height: 100px;
+    background-color: transparent;
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.toolbar {
+    width: 860px;
+    height: auto;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 15px;
+    top: 10px;
+}
+
+.searchButton {
+    font-size: 18px;
+}
